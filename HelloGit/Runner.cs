@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 namespace HelloGit
 {
 	public class Runner
@@ -11,6 +11,9 @@ namespace HelloGit
 		{
 			Console.Write("Runner");
 			Console.Write("Runner 2");
+
+			var calc = new Calculator();
+			Console.WriteLine(calc);
 		}
 	}
 }
