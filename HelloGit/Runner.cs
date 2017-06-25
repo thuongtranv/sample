@@ -1,4 +1,4 @@
-﻿﻿using System;
+﻿﻿﻿using System;
 namespace HelloGit
 {
 	public class Runner
@@ -18,6 +18,7 @@ namespace HelloGit
 
 			Console.WriteLine(calc.Add(5, 7));
 			Console.WriteLine(calc.Subtract(7,5));
+			Console.WriteLine("one more line");
 		}
 	}
 }
