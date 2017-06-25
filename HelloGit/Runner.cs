@@ -10,6 +10,7 @@ namespace HelloGit
 		public void Run()
 		{
 			Console.Write("Runner");
+			Console.Write("Runner 2");
 		}
 	}
 }
