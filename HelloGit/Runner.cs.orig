@@ -1,4 +1,4 @@
-﻿﻿using System;
+﻿﻿﻿using System;
 namespace HelloGit
 {
 	public class Runner
@@ -13,8 +13,11 @@ namespace HelloGit
 			Console.Write("Runner 2");
 
 			var calc = new Calculator();
+<<<<<<< HEAD
 			Console.WriteLine("User1 make this change.");
+=======
 			Console.WriteLine("User2 make this change.");
+>>>>>>> 2765ec12dc7ecf44ae926f437c26c99db519c4cf
 
 			Console.WriteLine(calc.Add(5, 7));
 			Console.WriteLine(calc.Subtract(7,5));
